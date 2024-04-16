@@ -6,6 +6,10 @@ public class Product {
     public double price;
     public int quantityInStock;
 
+    // OBS: Sobre o construtor
+    // Quando eu faço isso "this.name = name;" eu estou unificando o atributo da
+    // classe com o atributo do construtor
+
     // Crei um construtor padrão
     public Product() {
     }
@@ -22,10 +26,6 @@ public class Product {
         this.name = name;
         this.price = price;
     }
-
-    // OBS: Sobre o construtor
-    // Quando eu faço isso "this.name = name;" eu estou unificando o atributo da
-    // classe com o atributo do construtor
 
     /**
      * @return String return the name
